@@ -1,0 +1,42 @@
+.container-1 {
+	width: 1280px;
+}
+
+
+.hover-active ul {
+	display: none;
+}
+.hover-active a:hover ul {
+	display: block;
+}
+
+.font-color {
+
+  background: radial-gradient(circle, rgba(10,48,242,1) 0%, rgba(34,50,229,1) 16%, rgba(252,70,107,1) 100%);
+  -webkit-text-fill-color:  transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(0,0,0,0);
+  -webkit-box-decoration-break: clone;
+
+}
+
+.background-gradient {
+	background: rgb(2,0,36);
+	background: radial-gradient(circle, rgba(10,48,242,1) 0%, rgba(34,50,229,1) 16%, rgba(252,70,107,1) 100%);
+
+}
+
+
+.footer-gray-section-border {
+	border: 1px solid transparent;
+	border-image: radial-gradient(circle, rgba(10,48,242,1) 0%, rgba(34,50,229,1) 16%, rgba(252,70,107,1) 100%);
+	height: 280px;
+	border-image-slice: 1;
+	-webkit-border-radius: 5px;
+	box-sizing: border-box;
+	display: block;
+}
+
+.hero-image-responsive-height {
+	height: 5rem;
+}
