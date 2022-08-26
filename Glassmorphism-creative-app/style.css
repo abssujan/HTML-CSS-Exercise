@@ -16,22 +16,23 @@
     --scrollbar-bg: rgb(1 2 3 / 40%);
    }
 
-   *{
+    * {
        font-family: 'Poppins',sans-serif;
        box-sizing: border-box;
    }
 
-   body {
+    body {
        background-image: url('https://wallpapershome.com/images/wallpapers/macos-big-sur-1280x720-dark-wwdc-2020-22655.jpg');
        background-position: center;
        background-size: cover;
    }
 
-   .mash {
+    .mash {
       background-color: var(--theme-bg-color);
 
    }
-   .mash-1 {
+
+    .mash-1 {
        border-bottom: 1px solid var(--border-color);
    }
 
