@@ -1,0 +1,15 @@
+a {
+    text-decoration: none;
+}
+
+.hover-active ul {
+    display: none;
+}
+
+.hover-active a:hover ul {
+    display: block;
+}
+
+.container-1 {
+    width: 1280px;
+}
