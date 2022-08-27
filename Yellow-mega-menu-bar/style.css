@@ -1,0 +1,41 @@
+.width-problem-fixing {
+    width: 82.8rem;
+    left: -1px;
+
+}
+
+.width-problem-fixing-2 {
+    width: 82.8rem;
+    left: -20rem;
+
+}
+
+.width-problem-fixing-3 {
+    width: 82.8rem;
+    left: -31rem;
+
+}
+
+.width-problem-fixing-4 {
+    width: 82.8rem;
+    left: -47rem;
+
+}
+
+.width-problem-fixing-1 {
+   left: -1px;
+}
+
+.hover-active ul {
+    display: none;
+}
+
+.hover-active a:hover ul {
+    display: block;
+}
+
+ .display-mine {
+    display: none;
+}
+
+
