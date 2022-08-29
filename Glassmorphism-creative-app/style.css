@@ -14,80 +14,80 @@
     --search-bg:  #14162b;
     --overlay-bg: rgba(36, 39, 59, 0.3);
     --scrollbar-bg: rgb(1 2 3 / 40%);
-   }
+}
 
-    * {
-       font-family: 'Poppins',sans-serif;
-       box-sizing: border-box;
-   }
+* {
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
 
-    body {
-       background-image: url('https://wallpapershome.com/images/wallpapers/macos-big-sur-1280x720-dark-wwdc-2020-22655.jpg');
-       background-position: center;
-       background-size: cover;
-   }
+body {
+    background-image: url('https://wallpapershome.com/images/wallpapers/macos-big-sur-1280x720-dark-wwdc-2020-22655.jpg');
+    background-position: center;
+    background-size: cover;
+}
 
-    .mash {
-      background-color: var(--theme-bg-color);
+.mash {
+    background-color: var(--theme-bg-color);
 
-   }
+}
 
-    .mash-1 {
-       border-bottom: 1px solid var(--border-color);
-   }
+.mash-1 {
+    border-bottom: 1px solid var(--border-color);
+}
 
-   .blast:hover {
-       background-color: var(--hover-menu-bg);
-   }
+.blast:hover {
+    background-color: var(--hover-menu-bg);
+}
 
-   .dam-dom {
-       border-left: 1px solid var(--border-color);
-       height: 42rem;
-   }
+.dam-dom {
+    border-left: 1px solid var(--border-color);
+    height: 42rem;
+}
 
-   .dash-board {
-       border-bottom: 1px solid var(--border-color);
-   }
+.dash-board {
+    border-bottom: 1px solid var(--border-color);
+}
 
-   .dam-dom-1 {
-       height: 100%;
-       background-color: var(--theme-bg-color);
-   }
+.dam-dom-1 {
+    height: 100%;
+    background-color: var(--theme-bg-color);
+}
 
-   .dam-dom-2 {
-           background-image: url('https://www.transparenttextures.com/patterns/cubes.png'),
-           linear-gradient(to right top, #cf4af3, #e73bd7, #f631bc, #fd31a2, #ff3a8b, #ff4b78, #ff5e68, #ff705c, #ff8c51, #ffaa49, #ffc848, #ffe652)
-   }
+.dam-dom-2 {
+    background-image: url('https://www.transparenttextures.com/patterns/cubes.png'),
+    linear-gradient(to right top, #cf4af3, #e73bd7, #f631bc, #fd31a2, #ff3a8b, #ff4b78, #ff5e68, #ff705c, #ff8c51, #ffaa49, #ffc848, #ffe652)
+}
 
-   .dom-dom-3 {
-       background-color: var(--content-bg);
-       border: 1px solid var(--theme-bg-color);
-   }
+.dom-dom-3 {
+    background-color: var(--content-bg);
+    border: 1px solid var(--theme-bg-color);
+}
 
-   .lal {
-       font-size: 5px;
-   }
+.lal {
+    font-size: 5px;
+}
 
-   .lal-2 {
-       border: 1px solid var(--border-color);
-       text-align: center;
-       border-radius: 20px;
-   }
+.lal-2 {
+    border: 1px solid var(--border-color);
+    text-align: center;
+    border-radius: 20px;
+}
 
-   .bug {
-       border-bottom: 1px solid var(--border-color);
-   }
+.bug {
+    border-bottom: 1px solid var(--border-color);
+}
 
-   ::-webkit-scrollbar {
-     width: 10px;
-     height: 10px;
-   }
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
 
-   ::-webkit-scrollbar-thumb {
-     background: transparent;
-   }
+::-webkit-scrollbar-thumb {
+    background: transparent;
+}
 
-   ::-webkit-scrollbar-track {
-     background: transparent;
-   }
+::-webkit-scrollbar-track {
+    background: transparent;
+}
 
