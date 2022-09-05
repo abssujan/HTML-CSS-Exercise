@@ -1,0 +1,60 @@
+.input-width {
+    width: 40rem;
+}
+.fixed-width-left-side {
+    width: 13%;
+}
+.fixed-width-right-side {
+    width: 89%;
+}
+
+@media only screen and (max-width: 1280px) {
+    .input-width {
+        width: 30rem;
+    }
+    .fixed-width-right-side {
+        width: 80%;
+    }
+    .fixed-width-left-side {
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .input-width {
+        width: 25rem;
+    }
+    .fixed-width-right-side {
+        width: 75%;
+    }
+    .fixed-width-left-side {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .input-width {
+        width: 15rem;
+    }
+    .fixed-width-right-side {
+        width: 70%;
+    }
+    .fixed-width-left-side {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .input-width {
+        width: 10rem;
+    }
+    .input-width {
+        width: 15rem;
+    }
+    .fixed-width-right-side {
+        width: 65%;
+    }
+    .fixed-width-left-side {
+        width: 35%;
+    }
+}
