@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Gmail Demo Side Bar</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <!-- main content -->
+        <div class="main-container bg-gray-100">
+            <!-- Head section -->
+            <div class="head-section flex justify-between px-10 items-center h-16 bg-gray-100">
+                <div class="righit-section">
+                    <div class="inner-flex-box flex items-center justify-between
+                        lg:space-x-16 xl:space-x-20 space-x-5 md:space-x-10">
+                        <div class="logo-box flex items-center space-x-4">
+                            <i class="ion-android-menu text-xl md:text-2xl text-gray-700 cursor-pointer"></i>
+                            <div class="logo flex items-center space-x-2 cursor-pointer">
+                                <i class="ion-android-mail text-xl md:text-4xl text-gray-600"></i>
+                                <h1 class="md:text-2xl font-normal text-gray-600">Gmail</h1>
+                            </div>
+                        </div>
+                        <div class="input-box relative hidden md:block">
+                            <div class="absolute inset-y-0 left-0 flex items-center">
+                                <i class="ion-ios-search-strong pl-4 text-xl text-gray-500 "></i>
+                            </div>
+                            <input class="pl-10 pr-5 py-3 input-width rounded-lg shadow-sm
+                             focus:outline-none bg-gray-200 focus:bg-white foucs:shadow-lg
+                             foucs:text-gray-800" type="text" placeholder="Search your email">
+                        </div>
+                    </div>
+                </div>
+                <div class="left-section">
+                    <div class="icons-box flex items-center space-x-4 cursor-pointer">
+                        <div class="flex items-center space-x-3 md:space-x-4">
+                        <i class="ion-ios-help-outline text-xl md:text-3xl text-gray-600"></i>
+                        <i class="ion-gear-b text-xl md:text-3xl text-gray-600"></i>
+                        <i class="ion-grid text-xl md:text-3xl text-gray-600"></i>
+                        <i class=""></i>
+                        </div>
+                        <div class="round-image rounded-full">
+                            <img class="h-8 w-8 object-cover rounded-full"
+                            src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- side bar & main content -->
+            <!-- side bar -->
+            <div class="two-side-box flex pr-5">
+                <!-- side bar satrt here -->
+                <div class="left-side fixed-width-left-side h-screen">
+                    <div class="flex flex-col">
+                        <div class="pl-5">
+                            <div class="btn flex space-x-2 items-center pl-3 bg-sky-200 w-32 py-3
+                            rounded-xl cursor-pointer hover:shadow-lg">
+                                <i class="ion-edit mt-1 text-gray-700"></i>
+                                <h4 class="text-md font-semibold text-gray-700">Compose</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-5">
+                        <!-- side-menu-list -->
+                        <div class="flex space-x-4 items-center pl-10 hover:bg-gray-200 rounded-xl cursor-pointer active:bg-sky-200">
+                            <i class="ion-ios-calendar-outline text-xl"></i>
+                            <h4 class="text-sm font-semibold">Inbox</h4>
+                        </div>
+                        <div class="flex space-x-4 items-center pl-10 hover:bg-gray-200 rounded-xl cursor-pointer mt-2 active:bg-sky-200">
+                            <i class="ion-ios-star-half text-xl"></i>
+                            <h4 class="text-sm font-semibold">Starred</h4>
+                        </div>
+                        <div class="flex space-x-4 items-center pl-10 hover:bg-gray-200 rounded-xl cursor-pointer mt-2 active:bg-sky-200">
+                            <i class="ion-ios-stopwatch text-xl"></i>
+                            <h4 class="text-sm font-semibold">Snoozed</h4>
+                        </div>
+                        <div class="flex space-x-4 items-center pl-10 hover:bg-gray-200 rounded-xl cursor-pointer mt-2 active:bg-sky-200">
+                            <i class="ion-ios-paperplane-outline text-xl"></i>
+                            <h4 class="text-sm font-semibold">Sent</h4>
+                        </div>
+                        <div class="flex space-x-4 items-center pl-10 hover:bg-gray-200 rounded-xl cursor-pointer mt-2 active:bg-sky-200">
+                            <i class="ion-ios-list-outline text-xl"></i>
+                            <h4 class="text-sm font-semibold">Darft</h4>
+                        </div>
+                        <div class="flex space-x-4 items-center pl-10 hover:bg-gray-200 rounded-xl cursor-pointer mt-2 active:bg-sky-200">
+                            <i class="ion-ios-arrow-up text-xl"></i>
+                            <h4 class="text-sm font-semibold">Less</h4>
+                        </div>
+                        <div class="flex space-x-4 items-center pl-10 hover:bg-gray-200 rounded-xl cursor-pointer mt-2 active:bg-sky-200">
+                            <i class="ion-ios-pricetag-outline text-xl"></i>
+                            <h4 class="text-sm font-semibold">Important</h4>
+                        </div>
+                        <div class="flex space-x-4 items-center pl-10 hover:bg-gray-200 rounded-xl cursor-pointer mt-2 active:bg-sky-200">
+                            <i class="ion-ios-chatbubble-outline text-xl"></i>
+                            <h4 class="text-sm font-semibold">Chats</h4>
+                        </div>
+                        <div class="flex space-x-4 items-center pl-10 hover:bg-gray-200 rounded-xl cursor-pointer mt-2 active:bg-sky-200">
+                            <i class="ion-ios-fastforward-outline text-xl"></i>
+                            <h4 class="text-sm font-semibold">Scheduled</h4>
+                        </div>
+                        <div class="flex space-x-4 items-center pl-10 hover:bg-gray-200 rounded-xl cursor-pointer mt-2 active:bg-sky-200">
+                            <i class="ion-ios-email-outline text-xl"></i>
+                            <h4 class="text-sm font-semibold">All Mail</h4>
+                        </div>
+                        <div class="flex space-x-4 items-center pl-10 hover:bg-gray-200 rounded-xl cursor-pointer mt-2 active:bg-sky-200">
+                            <i class="ion-ios-refresh-outline text-xl"></i>
+                            <h4 class="text-sm font-semibold">Spam</h4>
+                        </div>
+                        <div class="flex space-x-4 items-center pl-10 hover:bg-gray-200 rounded-xl cursor-pointer mt-2 active:bg-sky-200">
+                            <i class="ion-ios-trash-outline text-xl"></i>
+                            <h4 class="text-sm font-semibold">Trash</h4>
+                        </div>
+                        <div class="flex space-x-2 items-center pl-10 hover:bg-gray-200 rounded-xl cursor-pointer mt-2 active:bg-sky-200">
+                            <i class="ion-arrow-right-a text-xl"></i>
+                            <h4 class="text-md font-semibold">Categories</h4>
+                        </div>
+                        <div class="flex space-x-4 items-center pl-10 hover:bg-gray-200 rounded-xl cursor-pointer mt-2 active:bg-sky-200">
+                            <i class="ion-gear-b text-xl"></i>
+                            <h4 class="text-sm font-semibold">Manage labels</h4>
+                        </div>
+                        <div class="flex space-x-4 items-center pl-10 hover:bg-gray-200 rounded-xl cursor-pointer mt-2 active:bg-sky-200">
+                            <i class="ion-android-add text-xl"></i>
+                            <h4 class="text-sm font-semibold">Create new label</h4>
+                        </div>
+                        <div class="flex items-center justify-between pl-10 mt-5 pr-5 cursor-pointer">
+                            <h2 class="text-xl text-gray-800">Labels</h2>
+                            <i class="ion-android-add text-xl"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="righit-side fixed-width-right-side h-screen bg-gray-200 rounded-lg"></div>
+            </div>
+        </div>
+    </body>
+</html>
