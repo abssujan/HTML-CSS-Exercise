@@ -72,6 +72,13 @@ html ::-webkit-scrollbar-track {
 .hidden-box-8 {
     display: none;
 }
+.text-fixing {
+    display: -webkit-box;
+    max-width: 300px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 
 @media only screen and (min-width: 610px) {
     .hidden-box-8 {
@@ -79,19 +86,19 @@ html ::-webkit-scrollbar-track {
     }
 }
 
-@media only screen and (min-width: 735px) {
+@media only screen and (min-width: 840px) {
     .hidden-box-7 {
         display: block;
     }
 }
 
-@media only screen and (min-width: 1124px) {
+@media only screen and (min-width: 1190px) {
     .hidden-box-6 {
         display: block;
     }
 }
 
-@media only screen and (min-width: 920px) {
+@media only screen and (min-width: 950px) {
     .hidden-box-5 {
         display: block;
     }
