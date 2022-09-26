@@ -1,0 +1,42 @@
+.gray-900-spotify {
+    background-color: #121212;
+}
+.gray-800-spotify {
+    background-color: #181818;
+}
+.gray-700-spotify {
+    background-color: #282828;
+}
+
+.sidebar-spotify::-webkit-scrollbar {
+    width: 8px;
+    background-color: #121212;
+}
+.sidebar-spotify::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #535353;
+}
+
+.content-spotify::-webkit-scrollbar {
+    width: 8px;
+    background-color: #121212;
+}
+.content-spotify::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #535353;
+}
+
+.group:hover .group-hover\:text-white {
+    color: red;
+  }
+
+  .h-22 {
+    height: 5.5rem;
+  }
+  .w-14 {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  .w-200 {
+    width: 50rem;
+  }

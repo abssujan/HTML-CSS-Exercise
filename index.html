@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Spotify demo site</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="flex flex-col h-screen text-sm text-gray-400">
+        <div class="bg-blue-500 flex-1 flex overflow-hidden">
+            <div class="side-bar gray-900-spotify w-48 flex-none flex flex-col justify-between font-semibold">
+                <ul class="py-6">
+                    <li class="border-l-4 border-green-600">
+                        <a href="#" class="flex items-center mx-4 mt-4">
+                            <i class="ion-ios-home-outline fill-current text-white text-2xl"></i>
+                            <p class="ml-2 text-white mt-1">Home</p>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#" class="flex items-center mx-4 mt-4">
+                            <i class="ion-ios-browsers-outline fill-current text-white text-2xl"></i>
+                            <p class="ml-2 text-white ">Browser</p>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#" class="flex items-center mx-4 mt-4 group group-hover:text-white">
+                            <i class="ion-radio-waves fill-current text-white text-2xl group-hover:text-white"></i>
+                            <p class="ml-2 text-white group-hover:text-white">Radio</p>
+                        </a>
+                    </li>
+                </ul>
+                <div class="overflow-y-auto sidebar-spotify px-5 mt-2">
+                    <h3 class="uppercase tracking-widest text-gray-500 font-normal text-xs">your libray</h3>
+                    <ul class="space-y-2">
+                        <li class="truncate"><a href="#" class="hover:text-white">Made For You</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Recently Played</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Liked Songs</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Albumbs</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Artists</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Products</a></li>
+                    </ul>
+                    <!-- link-2 -->
+                    <h3 class="uppercase tracking-widest text-gray-500 font-normal text-xs mt-6">playlist</h3>
+                    <ul class="space-y-2">
+                        <li class="truncate"><a href="#" class="hover:text-white">Acoustic Hits</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Acoustic Cover</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Discover Weakly</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Hot Hits Bangladesh</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">90's Hip Hop Section</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">90's Smash Hits</a></li>
+                    </ul>
+                    <!-- link-3 -->
+                    <h3 class="uppercase tracking-widest text-gray-500 font-normal text-xs mt-6">playlist</h3>
+                    <ul class="space-y-2">
+                        <li class="truncate"><a href="#" class="hover:text-white">Made For You</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Recently Played</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Liked Songs</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Albumbs</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Artists</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Products</a></li>
+                    </ul>
+                    <!-- link-4 -->
+                    <h3 class="uppercase tracking-widest text-gray-500 font-normal text-xs mt-6">playlist</h3>
+                    <ul class="space-y-2">
+                        <li class="truncate"><a href="#" class="hover:text-white">Acoustic Hits</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Acoustic Cover</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Discover Weakly</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Hot Hits Bangladesh</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">90's Hip Hop Section</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">90's Smash Hits</a></li>
+                    </ul>
+                    <!-- link-5 -->
+                    <h3 class="uppercase tracking-widest text-gray-500 font-normal text-xs mt-6">playlist</h3>
+                    <ul class="space-y-2">
+                        <li class="truncate"><a href="#" class="hover:text-white">Made For You</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Recently Played</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Liked Songs</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Albumbs</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Artists</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Products</a></li>
+                    </ul>
+                </div>
+                <div class="border-t border-gray-800 h-16 px-5 py-2 flex items-center">
+                    <i class="ion-ios-plus-outline fill-current text-white text-2xl"></i>
+                    <a href="#" class="ml-2 text-white group-hover:text-white">New PlayLists</a>
+                </div>
+            </div>
+            <div class="content-area gray-800-spotify flex-1 flex flex-col">
+                <div class="flex items-center justify-between px-4 py-2">
+                    <div class="flex items-center space-x-8">
+                        <div class="cursor-pointer"><i class="ion-ios-arrow-left text-gray-300 text-lg "></i></div>
+                        <div class="cursor-pointer"><i class="ion-ios-arrow-right text-gray-300 text-lg "></i></div>
+                        <div class="relative">
+                            <i class="ion-ios-search-strong absolute top-0 text-gray-800 text-lg left-2 "></i>
+                            <input class="bg-white text-gray-800 placeholder-gray-800 rounded-full px-3 pl-8 py-1 focus:outline-none" type="text" placeholder="Search">
+                        </div>
+                    </div>
+                    <div class="flex items-center space-x-4 pr-5 cursor-pointer">
+                        <div class="flex items-center space-x-2">
+                            <i class="fa-solid fa-user-plus hover:text-white"></i>
+                            <p class="text-xs text-gray-400 hover:text-white">tonnmoybd</p>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="ion-chevron-down text-xs mt-px hover:text-white"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="overflow-y-auto content-spotify">
+                    <div class="container mx-auto">
+                       <h2 class="mt-24 font-semibold text-5xl text-white">Home</h2>
+                       <div class="mt-12">
+                        <h3 class="font-semibold text-xl border-b border-gray-800 pb-2">Recently</h3>
+                       </div>
+                       <!-- row-1 -->
+                     <div class="flex items-center mt-4 -mx-4">
+                        <div class="w-1/5 px-4">
+                            <div class="cursor-pointer">
+                                <img class="h-40 w-full object-cover "src="https://images.unsplash.com/photo-1587731556938-38755b4803a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1478&q=80" alt="">
+                            </div>
+                            <div>
+                                <a href="#" class="font-semibold block hover:text-white mt-2">Acoustic pop Covers</a>
+                            </div>
+                            <div class="text-gray-500 mt-2">Amazing Acoustic covers updated every week.</div>
+                            <div class="uppercase tracking-widest text-xs text-gray-500 mt-2">6679 Followers</div>
+                        </div>
+                        <div class="w-1/5 px-4">
+                            <div class="cursor-pointer">
+                                <img class="h-40 w-full object-cover" src="https://images.unsplash.com/photo-1511735111819-9a3f7709049c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="">
+                            </div>
+                            <div>
+                                <a href="#" class="font-semibold block hover:text-white mt-2">Acoustic pop Covers</a>
+                            </div>
+                            <div class="text-gray-500 mt-2">Amazing Acoustic covers updated every week.</div>
+                            <div class="uppercase tracking-widest text-xs text-gray-500 mt-2">6679 Followers</div>
+                        </div>
+                        <div class="w-1/5 px-4">
+                            <div class="cursor-pointer">
+                                <img  class="h-40 w-full object-cover" src="https://images.unsplash.com/photo-1531060504220-d30bebf3daaf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+                            </div>
+                            <div>
+                                <a href="#" class="font-semibold block hover:text-white mt-2">Acoustic pop Covers</a>
+                            </div>
+                            <div class="text-gray-500 mt-2">Amazing Acoustic covers updated every week.</div>
+                            <div class="uppercase tracking-widest text-xs text-gray-500 mt-2">6679 Followers</div>
+                        </div>
+                        <div class="w-1/5 px-4">
+                            <div class="cursor-pointer">
+                                <img class="h-40 w-full object-cover" src="https://images.unsplash.com/photo-1619983081593-e2ba5b543168?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+                            </div>
+                            <div>
+                                <a href="#" class="font-semibold block hover:text-white mt-2">Acoustic pop Covers</a>
+                            </div>
+                            <div class="text-gray-500 mt-2">Amazing Acoustic covers updated every week.</div>
+                            <div class="uppercase tracking-widest text-xs text-gray-500 mt-2">6679 Followers</div>
+                        </div>
+                        <div class="w-1/5 px-4">
+                            <div class="cursor-pointer">
+                                <img class="h-40 w-full object-cover" src="https://images.unsplash.com/photo-1571330735066-03aaa9429d89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+                            </div>
+                            <div>
+                                <a href="#" class="font-semibold block hover:text-white mt-2">Acoustic pop Covers</a>
+                            </div>
+                            <div class="text-gray-500 mt-2">Amazing Acoustic covers updated every week.</div>
+                            <div class="uppercase tracking-widest text-xs text-gray-500 mt-2">6679 Followers</div>
+                        </div>
+                     </div>
+                     <!-- row-2 -->
+                     <div class="flex items-center mt-10 -mx-4 ">
+                        <div class="w-1/5 px-4">
+                            <div class="cursor-pointer">
+                                <img class="h-40 w-full object-cover" src="https://images.unsplash.com/photo-1487180144351-b8472da7d491?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80" alt="">
+                            </div>
+                            <div>
+                                <a href="#" class="font-semibold block hover:text-white mt-2">Acoustic pop Covers</a>
+                            </div>
+                            <div class="text-gray-500 mt-2">Amazing Acoustic covers updated every week.</div>
+                            <div class="uppercase tracking-widest text-xs text-gray-500 mt-2">6679 Followers</div>
+                        </div>
+                        <div class="w-1/5 px-4">
+                            <div class="cursor-pointer">
+                                <img class="h-40 w-full object-cover" src="https://images.unsplash.com/photo-1535992165812-68d1861aa71e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=690&q=80" alt="">
+                            </div>
+                            <div>
+                                <a href="#" class="font-semibold block hover:text-white mt-2">Acoustic pop Covers</a>
+                            </div>
+                            <div class="text-gray-500 mt-2">Amazing Acoustic covers updated every week.</div>
+                            <div class="uppercase tracking-widest text-xs text-gray-500 mt-2">6679 Followers</div>
+                        </div>
+                        <div class="w-1/5 px-4">
+                            <div class="cursor-pointer">
+                                <img class="h-40 w-full object-cover" src="https://images.unsplash.com/photo-1530288782965-fbad40327074?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+                            </div>
+                            <div>
+                                <a href="#" class="font-semibold block hover:text-white mt-2">Acoustic pop Covers</a>
+                            </div>
+                            <div class="text-gray-500 mt-2">Amazing Acoustic covers updated every week.</div>
+                            <div class="uppercase tracking-widest text-xs text-gray-500 mt-2">6679 Followers</div>
+                        </div>
+                        <div class="w-1/5 px-4">
+                            <div class="cursor-pointer">
+                                <img  class="h-40 w-full object-cover" src="https://images.unsplash.com/photo-1494232410401-ad00d5433cfa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+                            </div>
+                            <div>
+                                <a href="#" class="font-semibold block hover:text-white mt-2">Acoustic pop Covers</a>
+                            </div>
+                            <div class="text-gray-500 mt-2">Amazing Acoustic covers updated every week.</div>
+                            <div class="uppercase tracking-widest text-xs text-gray-500 mt-2">6679 Followers</div>
+                        </div>
+                        <div class="w-1/5 px-4">
+                            <div class="cursor-pointer">
+                                <img class="h-40 w-full object-cover" src="https://images.unsplash.com/photo-1623184169148-d872f5f1f034?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80" alt="">
+                            </div>
+                            <div>
+                                <a href="#" class="font-semibold block hover:text-white mt-2">Acoustic pop Covers</a>
+                            </div>
+                            <div class="text-gray-500 mt-2">Amazing Acoustic covers updated every week.</div>
+                            <div class="uppercase tracking-widest text-xs text-gray-500 mt-2">6679 Followers</div>
+                        </div>
+                     </div>
+                     <!-- row-3 -->
+                     <div class="flex items-center mt-4 -mx-4">
+                        <div class="w-1/5 px-4">
+                            <div class="cursor-pointer">
+                                <img class="h-40 w-full object-cover "src="https://images.unsplash.com/photo-1587731556938-38755b4803a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1478&q=80" alt="">
+                            </div>
+                            <div>
+                                <a href="#" class="font-semibold block hover:text-white mt-2">Acoustic pop Covers</a>
+                            </div>
+                            <div class="text-gray-500 mt-2">Amazing Acoustic covers updated every week.</div>
+                            <div class="uppercase tracking-widest text-xs text-gray-500 mt-2">6679 Followers</div>
+                        </div>
+                        <div class="w-1/5 px-4">
+                            <div class="cursor-pointer">
+                                <img class="h-40 w-full object-cover" src="https://images.unsplash.com/photo-1511735111819-9a3f7709049c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="">
+                            </div>
+                            <div>
+                                <a href="#" class="font-semibold block hover:text-white mt-2">Acoustic pop Covers</a>
+                            </div>
+                            <div class="text-gray-500 mt-2">Amazing Acoustic covers updated every week.</div>
+                            <div class="uppercase tracking-widest text-xs text-gray-500 mt-2">6679 Followers</div>
+                        </div>
+                        <div class="w-1/5 px-4">
+                            <div class="cursor-pointer">
+                                <img  class="h-40 w-full object-cover" src="https://images.unsplash.com/photo-1531060504220-d30bebf3daaf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+                            </div>
+                            <div>
+                                <a href="#" class="font-semibold block hover:text-white mt-2">Acoustic pop Covers</a>
+                            </div>
+                            <div class="text-gray-500 mt-2">Amazing Acoustic covers updated every week.</div>
+                            <div class="uppercase tracking-widest text-xs text-gray-500 mt-2">6679 Followers</div>
+                        </div>
+                        <div class="w-1/5 px-4">
+                            <div class="cursor-pointer">
+                                <img class="h-40 w-full object-cover" src="https://images.unsplash.com/photo-1619983081593-e2ba5b543168?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+                            </div>
+                            <div>
+                                <a href="#" class="font-semibold block hover:text-white mt-2">Acoustic pop Covers</a>
+                            </div>
+                            <div class="text-gray-500 mt-2">Amazing Acoustic covers updated every week.</div>
+                            <div class="uppercase tracking-widest text-xs text-gray-500 mt-2">6679 Followers</div>
+                        </div>
+                        <div class="w-1/5 px-4">
+                            <div class="cursor-pointer">
+                                <img class="h-40 w-full object-cover" src="https://images.unsplash.com/photo-1571330735066-03aaa9429d89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+                            </div>
+                            <div>
+                                <a href="#" class="font-semibold block hover:text-white mt-2">Acoustic pop Covers</a>
+                            </div>
+                            <div class="text-gray-500 mt-2">Amazing Acoustic covers updated every week.</div>
+                            <div class="uppercase tracking-widest text-xs text-gray-500 mt-2">6679 Followers</div>
+                        </div>
+                     </div>
+                     <!-- row-4 -->
+                     <div class="flex items-center mt-10 -mx-4 ">
+                        <div class="w-1/5 px-4">
+                            <div class="cursor-pointer">
+                                <img class="h-40 w-full object-cover" src="https://images.unsplash.com/photo-1487180144351-b8472da7d491?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80" alt="">
+                            </div>
+                            <div>
+                                <a href="#" class="font-semibold block hover:text-white mt-2">Acoustic pop Covers</a>
+                            </div>
+                            <div class="text-gray-500 mt-2">Amazing Acoustic covers updated every week.</div>
+                            <div class="uppercase tracking-widest text-xs text-gray-500 mt-2">6679 Followers</div>
+                        </div>
+                        <div class="w-1/5 px-4">
+                            <div class="cursor-pointer">
+                                <img class="h-40 w-full object-cover" src="https://images.unsplash.com/photo-1535992165812-68d1861aa71e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=690&q=80" alt="">
+                            </div>
+                            <div>
+                                <a href="#" class="font-semibold block hover:text-white mt-2">Acoustic pop Covers</a>
+                            </div>
+                            <div class="text-gray-500 mt-2">Amazing Acoustic covers updated every week.</div>
+                            <div class="uppercase tracking-widest text-xs text-gray-500 mt-2">6679 Followers</div>
+                        </div>
+                        <div class="w-1/5 px-4">
+                            <div class="cursor-pointer">
+                                <img class="h-40 w-full object-cover" src="https://images.unsplash.com/photo-1530288782965-fbad40327074?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+                            </div>
+                            <div>
+                                <a href="#" class="font-semibold block hover:text-white mt-2">Acoustic pop Covers</a>
+                            </div>
+                            <div class="text-gray-500 mt-2">Amazing Acoustic covers updated every week.</div>
+                            <div class="uppercase tracking-widest text-xs text-gray-500 mt-2">6679 Followers</div>
+                        </div>
+                        <div class="w-1/5 px-4">
+                            <div class="cursor-pointer">
+                                <img  class="h-40 w-full object-cover" src="https://images.unsplash.com/photo-1494232410401-ad00d5433cfa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+                            </div>
+                            <div>
+                                <a href="#" class="font-semibold block hover:text-white mt-2">Acoustic pop Covers</a>
+                            </div>
+                            <div class="text-gray-500 mt-2">Amazing Acoustic covers updated every week.</div>
+                            <div class="uppercase tracking-widest text-xs text-gray-500 mt-2">6679 Followers</div>
+                        </div>
+                        <div class="w-1/5 px-4">
+                            <div class="cursor-pointer">
+                                <img class="h-40 w-full object-cover" src="https://images.unsplash.com/photo-1623184169148-d872f5f1f034?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80" alt="">
+                            </div>
+                            <div>
+                                <a href="#" class="font-semibold block hover:text-white mt-2">Acoustic pop Covers</a>
+                            </div>
+                            <div class="text-gray-500 mt-2">Amazing Acoustic covers updated every week.</div>
+                            <div class="uppercase tracking-widest text-xs text-gray-500 mt-2">6679 Followers</div>
+                        </div>
+                     </div>
+                     <!-- end -->
+                    </div>
+                </div>
+            </div>
+                </div>
+                <div class="gray-700-spotify flex-none h-22 px-5 flex items-center justify-between">
+                    <div class="flex items-center">
+                        <a href="#" >
+                            <img  class="w-14 object-cover" src="https://images.unsplash.com/photo-1516900448138-898720b936c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                        </a>
+                        <div class="ml-3">
+                            <div><a href="#" class="hover:  underline">Name of Song</a></div>
+                            <div><a href="#" class="text-xs text-gray-500 hover:underline hover:text-white">Artist Name</a></div>
+                        </div>
+                    </div>
+                    <!-- player-control -->
+                    <div class="player-control flex flex-col justify-center">
+                        <div class="flex justify-center space-x-5">
+                            <button><i class="fa-solid fa-shuffle fill-current hover:text-white text-lg text-gray-400"></i></button>
+                            <button><i class="fa-solid fa-arrow-left fill-current hover:text-white text-lg text-gray-400"></i></button>
+                            <button><i class="fa-regular fa-circle-play fill-current hover:text-white text-xl text-gray-400"></i></button>
+                            <button><i class="fa-solid fa-arrow-right fill-current hover:text-white text-lg text-gray-400"></i></button>
+                            <button><i class="fa-solid fa-repeat fill-current hover:text-white text-base text-gray-400"></i></button>
+                        </div>
+                        <div class="flex jutify-center items-center max-w-full mt-3">
+                            <div class="text-gray-500 text-xs">1:20</div>
+                            <div class="bg-gray-500 rounded-lg  w-200 h-1 ml-3"></div>
+                            <div class="ml-3 text-gray-500 text-xs">3:20</div>
+                        </div>
+                    </div>
+                    <!-- volume section -->
+                    <div class="flex items-center space-x-3">
+                        <button><i class="fa-solid fa-music fill-current hover:text-white text-sm text-gray-400"></i></button>
+                        <button><i class="fa-solid fa-desktop fill-current hover:text-white text-sm text-gray-400"></i></button>
+                        <div class="flex items-center">
+                            <button><i class="fa-solid fa-volume-low fill-current hover:text-white text-sm text-gray-400"></i></button>
+                            <div class="bg-gray-500 rounded-lg w-10 h-1 ml-2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+        </html>
