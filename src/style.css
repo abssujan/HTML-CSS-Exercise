@@ -1,0 +1,246 @@
+.nav-list {
+    position: absolute;
+    /* height: 100vh; */
+    width: 24rem;
+    top: 0;
+    right: -40rem;
+    background-color: #F2F3F4;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    display: block;
+    transition: 0.3s;;
+}
+.show_menu {
+    left: -17.5rem;
+}
+.nav-list-1 {
+    position: absolute;
+    height: 100vh;
+    width: 24rem;
+    /* left: -35rem; */
+    top: -3rem;
+    left: 30rem;
+    background-color: #F2F3F4;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+}
+.show_menu_1 {
+    left: 0;
+}
+
+/* link-2 */
+
+.nav-list-2 {
+    position: absolute;
+    height: 100vh;
+    width: 24rem;
+    left: 30rem;
+    top: -6rem;
+    background-color:  #F2F3F4;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.show_menu_2 {
+    left: 0;
+}
+
+/* link-3 */
+
+.nav-list-3 {
+    position: absolute;
+    height: 100vh;
+    width: 24rem;
+    left: 30rem;
+    top: -8rem;
+    background-color:  #F2F3F4;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.show_menu_3 {
+    left: 0;
+}
+
+/* link-4 */
+
+.nav-list-4 {
+    position: absolute;
+    height: 100vh;
+    width: 24rem;
+    left: 30rem;
+    top: -15rem;
+    background-color:  #F2F3F4;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.show_menu_4 {
+    left: 0;
+}
+
+/* link-5 */
+
+.nav-list-5 {
+    position: absolute;
+    height: 100vh;
+    width: 24rem;
+    left: 30rem;
+    top: -18rem;
+    background-color:  #F2F3F4;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.show_menu_5 {
+    left: 0;
+}
+
+/* link-6 */
+
+.nav-list-6 {
+    position: absolute;
+    height: 100vh;
+    width: 24rem;
+    left: 30rem;
+    top: -20rem;
+    background-color:  #F2F3F4;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.show_menu_6 {
+    left: 0;
+}
+
+/* link-7 */
+
+.nav-list-7 {
+    position: absolute;
+    height: 100vh;
+    width: 24rem;
+    left: 30rem;
+    top: -23rem;
+    background-color:  #F2F3F4;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.show_menu_7 {
+    left: 0;
+}
+
+/* link-8 */
+
+.nav-list-8 {
+    position: absolute;
+    height: 100vh;
+    width: 24rem;
+    left: 30rem;
+    top: -30rem;
+    background-color:  #F2F3F4;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.show_menu_8 {
+    left: 0;
+}
+
+/* link-9 */
+
+.nav-list-9 {
+    position: absolute;
+    height: 100vh;
+    width: 24rem;
+    left: 30rem;
+    top: -32rem;
+    background-color:  #F2F3F4;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.show_menu_9 {
+    left: 0;
+}
+
+/* link-10 */
+
+/* মোবাইল ভার্সন ন্যাভিগেশন বার */
+
+.nav-list-10 {
+    position: absolute;
+    height: 100vh;
+    width: 24rem;
+    left: 30rem;
+    top: -35rem;
+    background-color:  #F2F3F4;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.show_menu_10 {
+    left: 0;
+}
+
+/* link-11 */
+
+.nav-list-11 {
+    position: absolute;
+    height: 100vh;
+    width: 24rem;
+    left: 30rem;
+    top: -38rem;
+    background-color:  #F2F3F4;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.show_menu_11 {
+    left: 0;
+}
+/* মোবাইল ভার্সন ন্যাভিগেশন বার শেষ এখানে */
+
+/*  scroll bar for phone mobile version*/
+.scroll-bar-hide {
+    overflow-x: hidden;
+}
+.scroll-bar-hide::-webkit-scrollbar {
+  width: 15px;
+}
+.scroll-bar-hide::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+.scroll-bar-hide::-webkit-scrollbar-thumb {
+    background-color: #6b7280;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+
+  /* pc version */
+
+::-webkit-scrollbar {
+    width: 15px;
+  }
+::-webkit-scrollbar-track {
+      background: #ffffff;
+    }
+  
+::-webkit-scrollbar-thumb {
+      background-color: #6b7280;
+      border-radius: 10px;
+      border: 3px solid #ffffff;
+    }
