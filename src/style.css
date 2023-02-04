@@ -5,14 +5,15 @@
     top: 0;
     right: -40rem;
     background-color: #F2F3F4;
-    display: flex;
+    display: none;
     flex-direction: column;
     overflow-x: hidden;
-    display: block;
-    transition: 0.3s;;
+    /* display: block; */
+    transition: 0.3s;
 }
 .show_menu {
     left: -17.5rem;
+    display: block;
 }
 .nav-list-1 {
     position: absolute;
@@ -176,7 +177,7 @@
 
 /* link-10 */
 
-/* মোবাইল ভার্সন ন্যাভিগেশন বার */
+/* Mobile nav start */
 
 .nav-list-10 {
     position: absolute;
@@ -211,14 +212,14 @@
 .show_menu_11 {
     left: 0;
 }
-/* মোবাইল ভার্সন ন্যাভিগেশন বার শেষ এখানে */
+/* Mobile version nav end here */
 
 /*  scroll bar for phone mobile version*/
 .scroll-bar-hide {
     overflow-x: hidden;
 }
 .scroll-bar-hide::-webkit-scrollbar {
-  width: 15px;
+  width: 10px;
 }
 .scroll-bar-hide::-webkit-scrollbar-track {
     background: #ffffff;
@@ -226,7 +227,7 @@
 
 .scroll-bar-hide::-webkit-scrollbar-thumb {
     background-color: #6b7280;
-    border-radius: 10px;
+    border-radius: 15px;
     border: 3px solid #ffffff;
   }
 
@@ -238,7 +239,6 @@
 ::-webkit-scrollbar-track {
       background: #ffffff;
     }
-  
 ::-webkit-scrollbar-thumb {
       background-color: #6b7280;
       border-radius: 10px;

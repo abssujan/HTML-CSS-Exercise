@@ -1,4 +1,4 @@
-// হিরো ইমেজ স্লাইডার
+// Hero Image slider
 
 var slideIndex = 0;
 showSlides();
@@ -15,7 +15,7 @@ function showSlides() {
   setTimeout(showSlides, 5000); // Change image every 5 seconds
 }
 
-// মোবাইল ভার্সন ন্যাভিগেশন বার
+// Mobile version navigation-bar
 const navMenu = document.getElementById('nav-menu')
 const toggleMenu = document.getElementById('toggle-menu')
 const closeMenu = document.getElementById('close-menu')
@@ -158,4 +158,4 @@ closeMenui.addEventListener('click', () => {
     navMenui.classList.remove('show_menu_11')
 })
 
-// মোবাইল ভার্সন ন্যাভিগেশন বার শেষ এখানে
+//Mobile version navigation end here
