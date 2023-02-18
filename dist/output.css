@@ -576,10 +576,6 @@ video {
   bottom: -1rem;
 }
 
-.-left-4 {
-  left: -1rem;
-}
-
 .-left-72 {
   left: -18rem;
 }
@@ -594,10 +590,6 @@ video {
 
 .top-11 {
   top: 2.75rem;
-}
-
-.top-6 {
-  top: 1.5rem;
 }
 
 .z-10 {
@@ -766,10 +758,6 @@ video {
   width: 10rem;
 }
 
-.w-52 {
-  width: 13rem;
-}
-
 .w-6 {
   width: 1.5rem;
 }
@@ -809,10 +797,6 @@ video {
 
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .grid-rows-1 {
@@ -971,11 +955,6 @@ video {
   border-color: rgb(156 163 175 / var(--tw-border-opacity));
 }
 
-.border-gray-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(107 114 128 / var(--tw-border-opacity));
-}
-
 .border-gray-600 {
   --tw-border-opacity: 1;
   border-color: rgb(75 85 99 / var(--tw-border-opacity));
@@ -1084,8 +1063,8 @@ video {
   padding-bottom: 1rem;
 }
 
-.pb-16 {
-  padding-bottom: 4rem;
+.pb-5 {
+  padding-bottom: 1.25rem;
 }
 
 .pl-16 {
@@ -1102,10 +1081,6 @@ video {
 
 .pt-5 {
   padding-top: 1.25rem;
-}
-
-.pb-5 {
-  padding-bottom: 1.25rem;
 }
 
 .text-center {
@@ -1284,11 +1259,6 @@ video {
   color: rgb(249 250 251 / var(--tw-text-opacity));
 }
 
-.hover\:text-gray-700:hover {
-  --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity));
-}
-
 .hover\:text-gray-800:hover {
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity));
@@ -1342,11 +1312,6 @@ video {
     grid-column: span 2 / span 2;
   }
 
-  .md\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .md\:mt-0 {
     margin-top: 0px;
   }
@@ -1369,10 +1334,6 @@ video {
 
   .md\:flex {
     display: flex;
-  }
-
-  .md\:hidden {
-    display: none;
   }
 
   .md\:h-16 {
@@ -1477,10 +1438,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:absolute {
-    position: absolute;
-  }
-
   .lg\:block {
     display: block;
   }
@@ -1557,14 +1514,6 @@ video {
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
   }
 
-  .lg\:pb-0 {
-    padding-bottom: 0px;
-  }
-
-  .lg\:pb-16 {
-    padding-bottom: 4rem;
-  }
-
   .lg\:text-5xl {
     font-size: 3rem;
     line-height: 1;
@@ -1638,12 +1587,12 @@ video {
     padding-right: 6rem;
   }
 
-  .xl\:pb-16 {
-    padding-bottom: 4rem;
-  }
-
   .xl\:pb-0 {
     padding-bottom: 0px;
+  }
+
+  .xl\:pb-16 {
+    padding-bottom: 4rem;
   }
 
   .xl\:text-base {
